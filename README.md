@@ -1,6 +1,6 @@
-# Trade Automation Project 🛠️
+# Nuvama-MCP 🛠️
 
-This project provides a Python-based solution for automating stock trading using an API. It includes tools for placing buy/sell orders and fetching holdings. Additionally, it integrates with the FastMCP server to expose these functionalities as tools.
+This project integrates Nuvama's trading platform with Claude AI using the MCP framework, allows you to interact with nuvama trading platform directly through claude AI.
 
 ## Features ✨
 
@@ -37,7 +37,7 @@ This project provides a Python-based solution for automating stock trading using
 
 4. Run the FastMCP server:
    ```bash
-   python trade_mcp_server.py
+   uv run trade_mcp_server.py
    ```
 
 ## Using the MCP Tools 🛠️
